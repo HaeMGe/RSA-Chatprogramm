@@ -1,0 +1,18 @@
+#BlueJ class context
+comment0.target=serverplus
+comment0.text=\n\ Von\ Tuhin\ Thodeme\ Q1\n\ Version\ 2\n\ \n\ Datum\:27.02.2020\n\ \n\ Das\ ganze\ Programm\ und\ die\ Verschl\u00FCsselung\ und\ Entschl\u00FCsselung\ \n\ wurde\ selbst\u00E4ndig\ von\ mir\ programmiert\n\ \n
+comment1.params=port
+comment1.target=serverplus(int)
+comment2.params=
+comment2.target=void\ handling()
+comment3.params=nachricht
+comment3.target=java.lang.String\ verschlusselung(java.lang.String)
+comment4.params=pClientIP\ pClientPort
+comment4.target=void\ processNewConnection(java.lang.String,\ int)
+comment5.params=pClientIP\ pClientPort\ pMessage
+comment5.target=void\ processMessage(java.lang.String,\ int,\ java.lang.String)
+comment6.params=nachricht
+comment6.target=java.lang.String\ decode(java.lang.String)
+comment7.params=pClientIP\ pClientPort
+comment7.target=void\ processClosingConnection(java.lang.String,\ int)
+numComments=8

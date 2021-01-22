@@ -1,0 +1,14 @@
+#BlueJ class context
+comment0.target=cclient
+comment0.text=\n\ Von\ Tuhin\ Thodeme\ Q1\n\ Version\ 2\n\ \n\ Datum\:27.02.2020\n\ \n\ Das\ ganze\ Programm\ und\ die\ Verschl\u00FCsselung\ und\ Entschl\u00FCsselung\ \n\ wurde\ selbst\u00E4ndig\ von\ mir\ programmiert\n\ \n
+comment1.params=sip\ sport
+comment1.target=cclient(java.lang.String,\ int)
+comment2.params=
+comment2.target=void\ handling()
+comment3.params=nachricht
+comment3.target=java.lang.String\ verschlusselung(java.lang.String)
+comment4.params=pMessage
+comment4.target=void\ processMessage(java.lang.String)
+comment5.params=nachricht
+comment5.target=java.lang.String\ decode(java.lang.String)
+numComments=6

@@ -1,0 +1,31 @@
+import basis.*;
+/**
+ * Beschreiben Sie hier die Klasse test.
+ * 
+ * @author (Ihr Name) 
+ * @version (eine Versionsnummer oder ein Datum)
+ */
+public class test
+{
+    private serverplus server;
+    int i;
+    String ip;
+    public test()
+    {
+     
+        i = 2345;
+        ip = "37.201.152.152";
+        server = new serverplus(i); 
+        if(server.isOpen()){
+        System.out.println("---Server erstellt---");
+    }
+        while(true){
+        if(server.isConnectedTo(ip,i)){
+            System.out.println("---Verbunden---");
+        }
+        Hilfe.kurzePause();
+    }
+    }
+
+    
+}

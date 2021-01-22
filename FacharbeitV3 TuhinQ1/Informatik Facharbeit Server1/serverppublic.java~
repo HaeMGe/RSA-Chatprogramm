@@ -1,0 +1,25 @@
+
+/**
+ * Beschreiben Sie hier die Klasse serverplus.
+ * 
+ * @author (Ihr Name) 
+ * @version (eine Versionsnummer oder ein Datum)
+ */
+public class serverppublic abstract void processNewConnection(String pClientIP, int pClientPort);
+
+    public abstract void processMessage(String pClientIP, int pClientPort, String pMessage);
+
+    public abstract void processClosingConnection(String pClientIP, int pClientPort);
+       lus extends Server
+{
+    // Instanzvariablen - ersetzen Sie das folgende Beispiel mit Ihren Variablen
+    private int x;
+
+    
+    public serverplus(int port)
+    {
+        super(port);
+    }
+
+    
+}

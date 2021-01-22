@@ -1,0 +1,19 @@
+import basis.*;
+public class T1
+{
+    public cclient t;
+    private int i,l;
+
+    public T1()
+    {
+        i = 2345;
+        t = new cclient("127.0.0.1",i);
+        System.out.println("---Client erstellt---");
+        while(true){
+            Hilfe.kurzePause();
+        }   
+        
+        
+
+    }
+}
